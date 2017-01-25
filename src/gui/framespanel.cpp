@@ -61,7 +61,7 @@ void BatchItem::scenarioFinished(const QString &error)
     if (error.isEmpty())
     {
         _frame->loadImage(_images->imageFile(_imageIndex));
-        _frame->showInfo(parseOutput(_runner->stdout()));
+        _frame->showInfo(parseOutput(_runner->getStdout()));
         emit finished(_runner->readProbe());
     }
     else

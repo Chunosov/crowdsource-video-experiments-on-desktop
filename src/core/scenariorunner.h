@@ -39,8 +39,8 @@ public:
 
     void run(const QString& imageFile, bool waitForFinish = false);
 
-    QString stdout() const { return _stdout; }
-    QString stderr() const { return _stderr; }
+    QString getStdout() const { return _stdout; }
+    QString getStderr() const { return _stderr; }
 
     bool verboseDebugPrint = false;
 

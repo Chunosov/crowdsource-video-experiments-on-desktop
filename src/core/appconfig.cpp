@@ -13,7 +13,7 @@ namespace ConfigKeys
     const QString imagesDir("images_dir");
     const QString imagesFilter("images_filter");
     const QString selectedScenario("selected_scenario_");
-    const QString batchSize("batchSize");
+    const QString batchSize("batch_size_");
 } // namespace ConfigKeys
 
 //-----------------------------------------------------------------------------
